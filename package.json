@@ -1,0 +1,41 @@
+{
+  "name": "dcl-button-group",
+  "description": "DCL Button Group",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dualjs/dcl-button-group",
+  "author": {
+    "name": "Mark",
+    "email": "me@jsman.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dualjs/dcl-button-group.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dualjs/dcl-button-group/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dualjs/dcl-button-group/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/dcl-button-group.js",
+  "dependencies": {
+    "dual": "*",
+    "dcl-bootstrap": "*",
+    "dcl-button": "0.0.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-dcl-resources": "0.0.1",
+    "browserify": "~2.x",
+    "grunt-browserify": "1.2.11",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
